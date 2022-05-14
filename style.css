@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(232, 238, 232);
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+
+img {
+    width: 200px;
+}
+
+.container {
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0 20px;
+}
+
+.title {
+    font-size: 2rem;
+    margin-bottom: 25px
+}
+
+.subtitle {
+    margin-bottom: 50px;
+}
+
+#currency1, #currency2 {
+    height: 40px;
+    width: 70px;
+    font-size: 1.1rem;
+}
+
+#swap-btn {
+    height: 40px;
+    width: 70px;
+    font-size: 1.2rem;
+}
+
+#amount1, #amount2 {
+    height: 35px;
+    width: 200px;
+    font-size: 1.2rem;
+    padding-left: 10px;
+}
