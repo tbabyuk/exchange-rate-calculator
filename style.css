@@ -3,7 +3,6 @@
     padding: 0;
 }
 
-
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(232, 238, 232);
@@ -12,19 +11,12 @@ body {
     height: 100vh;
 }
 
-
-img {
-    width: 200px;
-}
-
 .container {
     text-align: center;
 }
 
-.row {
-    display: flex;
-    justify-content: space-between;
-    margin: 30px 0 20px;
+img {
+    width: 200px;
 }
 
 .title {
@@ -36,19 +28,19 @@ img {
     margin-bottom: 50px;
 }
 
-#currency1, #currency2 {
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px 0 20px;
+}
+
+#currency1, #currency2, #swap-btn {
     height: 40px;
     width: 70px;
     font-size: 1.1rem;
 }
 
-#swap-btn {
-    height: 40px;
-    width: 70px;
-    font-size: 1.2rem;
-}
-
-#amount1, #amount2 {
+#amount1, #amount2, #rate {
     height: 35px;
     width: 200px;
     font-size: 1.2rem;
